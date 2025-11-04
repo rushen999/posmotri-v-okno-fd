@@ -223,7 +223,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__pseudo-checkbox::after{
+.search-form__pseudo-checkbox::after {
   content: "";
   display: block;
   background-color: #fff;
@@ -248,7 +248,7 @@ ol {
   padding-top: 16px;
 }
 
-.title{
+.title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
