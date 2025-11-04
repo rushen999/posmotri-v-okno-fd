@@ -23,7 +23,6 @@ html {
 
 .content {
   width: 1140px;
-  height: 534px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -61,7 +60,6 @@ ol {
   flex-direction: column;
   align-self: flex-start;
   max-width: 399px;
-  height: 534px;
 }
 
 .content__list-container {
@@ -72,7 +70,6 @@ ol {
   height: 298px;
   overflow-y: auto;
   margin-top: 21px;
-  position: relative;
 }
 
 .result {
@@ -138,7 +135,6 @@ ol {
 }
 
 .content__video-card-description-container {
-  display: flex;
   flex-direction: column;
   align-items: start;
   flex-grow: 1;
@@ -249,6 +245,8 @@ ol {
 }
 
 .title {
+  width: 260px;
+  height: 225px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
