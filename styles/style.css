@@ -49,7 +49,7 @@ ol {
 }
 
 .search-form {
-  height: 54px;
+  padding-bottom: 2px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -76,7 +76,6 @@ ol {
 }
 
 .result {
-  height: 456px;
   display: flex;
   flex-direction: column;
   width: 711px;
@@ -124,11 +123,11 @@ ol {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
-  line-clamp: 4;
+  line-clamp: 3;
   text-decoration: none;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   overflow: hidden;
 }
 
@@ -154,11 +153,13 @@ ol {
 }
 
 .search-form__fieldset {
+  padding-bottom: 3px;
   border: none;
   height: inherit;
 }
 
 .search-form__label {
+  align-items: center;
   display: flex;
   gap: 5px;
   cursor: pointer
@@ -166,7 +167,7 @@ ol {
 
 .search-form__textfield {
   min-width: 225px;
-  height: 26px;
+  height: 25px;
   border-top: #fff solid 1px;
   border-bottom: #fff solid 1px;
   border-left: 0;
@@ -180,6 +181,7 @@ ol {
   line-height: 100%;
   letter-spacing: 0;
   padding: 2.5px 0px;
+  margin-bottom: -3px;
   text-align: left;
   outline: none;
 }
@@ -242,11 +244,11 @@ ol {
 }
 
 .title {
-  padding-top: 25px;
+  padding-top: 30px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
-  line-height: 94%;  
+  line-height: 94%;
   text-transform: uppercase;
 }
 
@@ -257,6 +259,11 @@ ol {
 .content__card-link {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
+  display: block;
+}
+
+.content__card-link:active {
+  background-color: rgba(84, 80, 80, 1);
   display: block;
 }
 
